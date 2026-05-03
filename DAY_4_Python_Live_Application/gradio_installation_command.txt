@@ -1,0 +1,123 @@
+Microsoft Windows [Version 10.0.22631.6199]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP>pip install gradio
+Defaulting to user installation because normal site-packages is not writeable
+Collecting gradio
+  Downloading gradio-6.14.0-py3-none-any.whl.metadata (17 kB)
+Requirement already satisfied: anyio<5.0,>=3.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (4.9.0)
+Collecting audioop-lts<=0.2.2 (from gradio)
+  Downloading audioop_lts-0.2.2-cp313-abi3-win_amd64.whl.metadata (2.0 kB)
+Collecting brotli>=1.1.0 (from gradio)
+  Downloading brotli-1.2.0-cp313-cp313-win_amd64.whl.metadata (6.3 kB)
+Collecting fastapi<1.0,>=0.115.2 (from gradio)
+  Downloading fastapi-0.136.1-py3-none-any.whl.metadata (28 kB)
+Collecting gradio-client==2.5.0 (from gradio)
+  Downloading gradio_client-2.5.0-py3-none-any.whl.metadata (7.1 kB)
+Collecting groovy~=0.1 (from gradio)
+  Downloading groovy-0.1.2-py3-none-any.whl.metadata (6.1 kB)
+Collecting hf-gradio<1.0,>=0.4.1 (from gradio)
+  Downloading hf_gradio-0.4.1-py3-none-any.whl.metadata (428 bytes)
+Requirement already satisfied: httpx<1.0,>=0.24.1 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (0.28.1)
+Collecting huggingface-hub<2.0,>=0.33.5 (from gradio)
+  Downloading huggingface_hub-1.13.0-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: jinja2<4.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (3.0.2)
+Requirement already satisfied: numpy<3.0,>=1.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (2.3.3)
+Collecting orjson~=3.0 (from gradio)
+  Downloading orjson-3.11.8-cp313-cp313-win_amd64.whl.metadata (43 kB)
+Requirement already satisfied: packaging in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (25.0)
+Requirement already satisfied: pandas<4.0,>=1.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (2.3.2)
+Requirement already satisfied: pillow<13.0,>=8.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (11.3.0)
+Requirement already satisfied: pydantic<=3.0,>=2.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (2.13.3)
+Collecting pydub<1.0 (from gradio)
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting python-multipart<1.0,>=0.0.18 (from gradio)
+  Downloading python_multipart-0.0.27-py3-none-any.whl.metadata (2.1 kB)
+Requirement already satisfied: pytz>=2017.2 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (2025.2)
+Requirement already satisfied: pyyaml<7.0,>=5.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (6.0.2)
+Collecting safehttpx<0.2.0,>=0.1.7 (from gradio)
+  Downloading safehttpx-0.1.7-py3-none-any.whl.metadata (4.2 kB)
+Collecting semantic-version~=2.0 (from gradio)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting starlette<2.0,>=0.40.0 (from gradio)
+  Downloading starlette-1.0.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting tomlkit<0.15.0,>=0.12.0 (from gradio)
+  Downloading tomlkit-0.14.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting typer<1.0,>=0.12 (from gradio)
+  Downloading typer-0.25.1-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: typing-extensions~=4.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from gradio) (4.15.0)
+Collecting uvicorn>=0.14.0 (from gradio)
+  Downloading uvicorn-0.46.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting fsspec (from gradio-client==2.5.0->gradio)
+  Downloading fsspec-2026.4.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: idna>=2.8 in c:\users\hp\appdata\roaming\python\python313\site-packages (from anyio<5.0,>=3.0->gradio) (3.10)
+Requirement already satisfied: sniffio>=1.1 in c:\users\hp\appdata\roaming\python\python313\site-packages (from anyio<5.0,>=3.0->gradio) (1.3.1)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\hp\appdata\roaming\python\python313\site-packages (from fastapi<1.0,>=0.115.2->gradio) (0.4.2)
+Collecting annotated-doc>=0.0.2 (from fastapi<1.0,>=0.115.2->gradio)
+  Downloading annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: certifi in c:\users\hp\appdata\roaming\python\python313\site-packages (from httpx<1.0,>=0.24.1->gradio) (2025.6.15)
+Requirement already satisfied: httpcore==1.* in c:\users\hp\appdata\roaming\python\python313\site-packages (from httpx<1.0,>=0.24.1->gradio) (1.0.9)
+Requirement already satisfied: h11>=0.16 in c:\users\hp\appdata\roaming\python\python313\site-packages (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio) (0.16.0)
+Collecting filelock>=3.10.0 (from huggingface-hub<2.0,>=0.33.5->gradio)
+  Downloading filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting hf-xet<2.0.0,>=1.4.3 (from huggingface-hub<2.0,>=0.33.5->gradio)
+  Downloading hf_xet-1.4.3-cp37-abi3-win_amd64.whl.metadata (4.9 kB)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\hp\appdata\roaming\python\python313\site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (4.67.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\hp\appdata\roaming\python\python313\site-packages (from pandas<4.0,>=1.0->gradio) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\hp\appdata\roaming\python\python313\site-packages (from pandas<4.0,>=1.0->gradio) (2025.2)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from pydantic<=3.0,>=2.0->gradio) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.3 in c:\users\hp\appdata\roaming\python\python313\site-packages (from pydantic<=3.0,>=2.0->gradio) (2.46.3)
+Requirement already satisfied: click>=8.2.1 in c:\users\hp\appdata\roaming\python\python313\site-packages (from typer<1.0,>=0.12->gradio) (8.2.1)
+Collecting shellingham>=1.3.0 (from typer<1.0,>=0.12->gradio)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: rich>=13.8.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from typer<1.0,>=0.12->gradio) (14.1.0)
+Requirement already satisfied: colorama in c:\users\hp\appdata\roaming\python\python313\site-packages (from click>=8.2.1->typer<1.0,>=0.12->gradio) (0.4.6)
+Requirement already satisfied: six>=1.5 in c:\users\hp\appdata\roaming\python\python313\site-packages (from python-dateutil>=2.8.2->pandas<4.0,>=1.0->gradio) (1.17.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from rich>=13.8.0->typer<1.0,>=0.12->gradio) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\hp\appdata\roaming\python\python313\site-packages (from rich>=13.8.0->typer<1.0,>=0.12->gradio) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in c:\users\hp\appdata\roaming\python\python313\site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0,>=0.12->gradio) (0.1.2)
+Downloading gradio-6.14.0-py3-none-any.whl (19.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.7/19.7 MB 3.8 MB/s eta 0:00:00
+Downloading gradio_client-2.5.0-py3-none-any.whl (59 kB)
+Downloading audioop_lts-0.2.2-cp313-abi3-win_amd64.whl (30 kB)
+Downloading fastapi-0.136.1-py3-none-any.whl (117 kB)
+Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Downloading hf_gradio-0.4.1-py3-none-any.whl (4.5 kB)
+Downloading huggingface_hub-1.13.0-py3-none-any.whl (660 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 660.6/660.6 kB 5.2 MB/s eta 0:00:00
+Downloading hf_xet-1.4.3-cp37-abi3-win_amd64.whl (3.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 3.7 MB/s eta 0:00:00
+Downloading orjson-3.11.8-cp313-cp313-win_amd64.whl (127 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading python_multipart-0.0.27-py3-none-any.whl (29 kB)
+Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Downloading starlette-1.0.0-py3-none-any.whl (72 kB)
+Downloading tomlkit-0.14.0-py3-none-any.whl (39 kB)
+Downloading typer-0.25.1-py3-none-any.whl (58 kB)
+Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Downloading brotli-1.2.0-cp313-cp313-win_amd64.whl (369 kB)
+Downloading filelock-3.29.0-py3-none-any.whl (39 kB)
+Downloading fsspec-2026.4.0-py3-none-any.whl (203 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading uvicorn-0.46.0-py3-none-any.whl (70 kB)
+Installing collected packages: pydub, brotli, tomlkit, shellingham, semantic-version, python-multipart, orjson, hf-xet, groovy, fsspec, filelock, audioop-lts, annotated-doc, uvicorn, starlette, typer, safehttpx, fastapi, huggingface-hub, gradio-client, hf-gradio, gradio
+   ━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━ 13/22 [uvicorn]  WARNING: The script uvicorn.exe is installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━ 15/22 [typer]  WARNING: The script typer.exe is installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━ 17/22 [fastapi]  WARNING: The script fastapi.exe is installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━ 18/22 [huggingface-hub]  WARNING: The scripts hf.exe, huggingface-cli.exe and tiny-agents.exe are installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━ 19/22 [gradio-client]  WARNING: The script hf-gradio.exe is installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━ 21/22 [gradio]  WARNING: The scripts gradio.exe and upload_theme.exe are installed in 'C:\Users\HP\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed annotated-doc-0.0.4 audioop-lts-0.2.2 brotli-1.2.0 fastapi-0.136.1 filelock-3.29.0 fsspec-2026.4.0 gradio-6.14.0 gradio-client-2.5.0 groovy-0.1.2 hf-gradio-0.4.1 hf-xet-1.4.3 huggingface-hub-1.13.0 orjson-3.11.8 pydub-0.25.1 python-multipart-0.0.27 safehttpx-0.1.7 semantic-version-2.10.0 shellingham-1.5.4 starlette-1.0.0 tomlkit-0.14.0 typer-0.25.1 uvicorn-0.46.0
+
+[notice] A new release of pip is available: 25.1.1 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\HP>
