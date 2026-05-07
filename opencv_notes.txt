@@ -1,0 +1,52 @@
+pip install opencv-python
+
+https://opencv.org/university/free-opencv-course/?srsltid=AfmBOop0epOSKSqM9f1kTv5uk219CRQUbv9mZSPULNwkVG0pj3QyXJ3s
+OpenCV Global Certification on Image Processing. Everyone please compelete the exam and get certified. As mentioned there is no Fee.
+
+1. OpenCV Python codes
+Reading an image
+Check image attributes like datatype and shape
+Matrix representation of an image in Numpy
+Color Images and splitting/merging image channels
+Displaying images using matplotlib
+Saving images
+
+https://colab.research.google.com/drive/1hL1JNyjcsSr1JqaW7uChbj6A5-3v-6ul?usp=sharing
+
+2. Accessing and manipulating images pixels
+Image resizing
+Cropping
+Flipping
+
+https://colab.research.google.com/drive/1Zem6w3OASY0aU20y22Lh4D-JfCrw5S_A?usp=sharing
+
+3. annotating images
+Draw lines
+Draw circles
+Draw rectangles
+Add text
+https://colab.research.google.com/drive/1SjozKljv7d1vvwJEUbNx6YeV02b3Or7t?usp=sharing
+
+4. image Enhancements :
+https://colab.research.google.com/drive/1kBszwX40vC6gNC5TgXArPzykihBiCSyF?usp=sharing
+
+5. Video operations: 
+https://colab.research.google.com/drive/1kP2GYpm1O7L3cOF3rhnhS-DKl_rDJ8p4?usp=sharing
+
+6. document extraction from images: 
+https://colab.research.google.com/drive/1t8tWlahK-HcD66Hd7Wb-nLtqKNRSqS2L?usp=sharing
+
+7. Image Panorama with python : 
+https://colab.research.google.com/drive/17n9xz6VgGb856L2qLX4y7uQYBjIpl-yk?usp=sharing
+
+8. HDR feature: 
+https://colab.research.google.com/drive/1NbMLfMRU2LLPIcpCYUc8M2KqcPiK0Dfk?usp=sharing
+
+9. object tracking in the video: 
+https://colab.research.google.com/drive/1B8lwFsll-z9hUqvDFUV42cabw60rOyA-?usp=sharing
+
+10. object detection: 
+https://colab.research.google.com/drive/1Hs3r1qQJ_r2Lmv4k47S2uh0hi-EyA6dN?usp=sharing
+
+11. Pose Detection: 
+https://colab.research.google.com/drive/1B-1SFTUbGxNn1vXgHS79Gh3HH2XPTapF?usp=sharing

@@ -1,0 +1,92 @@
+day 8 - Integration with computer vision model
+
+Introduction in the below topic:
+computer vision
+image/video processing
+python, C++
+OpenCV
+deep learning libraries
+pythorch libraries - facebook
+tensorflow libraries - google
+
+features:
+1. live camera detection/streaming
+2. image basic operations 
+3. image manipulations
+4. annotating image
+5. Image Enhancements
+6. Video operations
+7. Panorama
+8. HDR
+9. Object tracking in the video
+10. Object detection
+11. pose detection
+12. video filters
+13. Face detection
+
+Initially install OpenCV packages
+-- pip install opencv-python
+
+After that run each feature topic on google colab
+
+in day 8 - first 4 features finishes
+
+1. Getting Started with Images:
+Display Image Directly
+Reading an image using OpenCV
+Display Image attributes
+Display Images using Matplotlib
+Working with Color Images
+Read and display color image
+Splitting and Merging Color Channels
+Converting to different Color Spaces
+Changing from BGR to RGB
+Changing to HSV color space
+Modifying individual Channel
+Saving Images
+
+Link:
+https://colab.research.google.com/drive/1hL1JNyjcsSr1JqaW7uChbj6A5-3v-6ul?usp=sharing
+
+2. Basic_Image_Manipulations_Crop_Resize_Flip_and_Modify_Pixels
+Original checkerboard image
+Accessing Individual Pixels
+Modifying Image Pixels
+Cropping Images
+Crop out the middle region of the image
+Resizing Images
+Method 1: Specifying Scaling Factor using fx and fy
+Medthod 2: Specifying exact size of the output image
+Resize while maintaining aspect ratio
+Flipping Images
+
+Link:
+https://colab.research.google.com/drive/1Zem6w3OASY0aU20y22Lh4D-JfCrw5S_A?usp=sharing
+
+3. annotating images:
+Draw lines
+Draw circles
+Draw rectangles
+Add text
+
+Link:
+https://colab.research.google.com/drive/1SjozKljv7d1vvwJEUbNx6YeV02b3Or7t?usp=sharing
+
+4. Basic Image Enhancement Using Mathematical Operations :
+Addition or Brightness
+Multiplication or Contrast
+Image Thresholding
+Application: Sheet Music Reader
+Bitwise Operations (AND, OR, XOR )
+Application: Logo Manipulation
+Read Foreground image
+Read Background image
+Create Mask for original Image
+Invert the Mask
+Apply background on the Mask
+Isolate foreground from image
+Result: Merge Foreground and Background
+
+Link:
+https://colab.research.google.com/drive/1kBszwX40vC6gNC5TgXArPzykihBiCSyF?usp=sharing
+
