@@ -1,0 +1,92 @@
+day 9 - Computer Vision real time Applications
+
+In this day, covered the 5 to 11 features:
+
+5. Writing a video using OpenCV:
+Read Video from Source
+Read and display one frame
+Display the video file
+Write Video using OpenCV
+Read frames and write to file
+
+https://colab.research.google.com/drive/1kP2GYpm1O7L3cOF3rhnhS-DKl_rDJ8p4?usp=sharing
+
+
+6. Image Alignment:
+Step 1: Read Template and Scanned Image
+Step 2: Find keypoints in both Images
+Step 3 : Match keypoints in the two image
+Step 4: Find Homography
+Step 5: Warp image
+
+https://colab.research.google.com/drive/1t8tWlahK-HcD66Hd7Wb-nLtqKNRSqS2L?usp=sharing
+
+
+7. Panorama ( Creating Panoramas using OpenCV ):
+Steps for Creating Panoramas
+Find keypoints in all images
+Find pairwise correspondences
+Estimate pairwise Homographies
+Refine Homographies
+Stitch with Blending
+
+https://colab.research.google.com/drive/17n9xz6VgGb856L2qLX4y7uQYBjIpl-yk?usp=sharing
+
+
+8. High Dynamic Range (HDR) Imaging:
+Basic Idea
+The dynamic range of images is limited to 8-bits (0 - 255) per channel
+Very bright pixels saturate to 255
+Very dark pixels clip to 0
+Step 1: Capture Multiple Exposures
+Step 2: Align Images
+Step 3: Estimate Camera Response Function
+Step 4: Merge Exposure into an HDR Image
+Step 5: Tonemapping
+
+https://colab.research.google.com/drive/1NbMLfMRU2LLPIcpCYUc8M2KqcPiK0Dfk?usp=sharing
+
+
+9. Object Tracking in Videos:
+Tracker Class in OpenCV:
+BOOSTING
+MIL
+KCF
+CRST
+TLD - Tends to recover from occulusions
+MEDIANFLOW - Good for predictable slow motion
+GOTURN - Deep Learning based & Most Accurate
+MOSSE - Fastest
+
+GOTURN Tracker
+Create the Tracker instance
+Read input video & Setup output Video
+Define Bounding Box
+Intilialize Tracker
+Read frame and Track Object
+
+https://colab.research.google.com/drive/1B8lwFsll-z9hUqvDFUV42cabw60rOyA-?usp=sharing
+
+
+10. Deep Learning based Object detection:
+Check Class Labels
+Read Tensorflow Model
+Detect Objects
+Display Objects
+Results
+False Alarm
+
+https://colab.research.google.com/drive/1Hs3r1qQJ_r2Lmv4k47S2uh0hi-EyA6dN?usp=sharing
+
+
+11. Pose detection:
+Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (2017)
+Load a Caffe Model
+Read Image
+Convert image to blob
+Run Inference (forward pass)
+Extract points
+Display Points & Skeleton
+
+https://colab.research.google.com/drive/1B-1SFTUbGxNn1vXgHS79Gh3HH2XPTapF?usp=sharing
+
